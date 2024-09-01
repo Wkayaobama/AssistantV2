@@ -3,8 +3,7 @@ from embedchain import App
 import os
 
 
-os.environ["OPENAI_API_KEY"] = "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"
-
+os.environ["OPENAI_API_KEY"] = OpenAI(api_key=config.API_KEY)
 def create_embedchain_app():
     return App
 
