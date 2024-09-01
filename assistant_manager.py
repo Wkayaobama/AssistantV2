@@ -5,8 +5,6 @@ import os
 import json
 from assistant_api import (load_thread_details)
 import time
-import embedchain_rag
-
 from embedchain import App
 from embedchain.store.assistants import OpenAIAssistant
 # Initialize OpenAI client
