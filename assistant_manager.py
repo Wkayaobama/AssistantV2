@@ -6,7 +6,7 @@ import json
 from assistant_api import (load_thread_details)
 import time
 import embedchain_rag
-from embedchain_rag import create_embedchain_app,add_url_to_embedchain,add_file_to_embedchain,process_embedchain_data
+
 from embedchain import App
 from embedchain.store.assistants import OpenAIAssistant
 # Initialize OpenAI client
