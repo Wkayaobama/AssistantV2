@@ -3,7 +3,7 @@ from embedchain import App
 import os
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 def create_embedchain_app():
     return App
