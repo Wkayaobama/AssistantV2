@@ -1,0 +1,2 @@
+API_KEY = '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'
+PERPLEXITY_API_KEY = ""
